@@ -1,0 +1,233 @@
+:root{
+    --warnadasar :#fa0b6b;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+}
+
+h1, h2, h3, .navbar-brand {
+    font-family: 'Dancing Script', cursive;
+    color: var(--warnadasar); /* Warna tema utama */
+}
+
+nav{
+    padding: 3px 0 !important;
+}
+
+.navbar-brand {
+    font-size: 2.3rem;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.1rem;
+    margin-left: 10px;
+    color: #555;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+    color: var(--warnadasar);
+}
+
+.hero {
+    background-image: url('img/hero1.jpg'); /* Ganti dengan path gambar hero Anda */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Efek gelap pada gambar */
+}
+
+.hero .container {
+    position: relative;
+    z-index: 2;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+}
+
+.hero .btn-primary {
+    background-color: #e44d26;
+    border-color: #e44d26;
+}
+
+.hero .btn-primary:hover {
+    background-color: #c83d1a;
+    border-color: #c83d1a;
+}
+
+#produk .card-title {
+    color: #e44d26;
+}
+
+.btn-outline-primary {
+    color: #e44d26;
+    border-color: #e44d26;
+}
+
+.btn-outline-primary:hover {
+    background-color: #e44d26;
+    color: white;
+}
+
+.bg-light {
+    background-color: #f8f9fa !important;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+.btn-secondary:hover {
+    background-color: #545b62;
+    border-color: #4e555b;
+}
+
+.bg-dark {
+    background-color: #343a40 !important;
+}
+
+
+/* footer a {
+    font-size: 1.5rem;
+    margin: 0 5px;
+} */
+
+footer {
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    background-color: #343a40; /* Warna latar belakang gelap */
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+footer h5 {
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+footer p {
+    color: #adb5bd; /* Warna teks abu-abu yang lebih lembut */
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+
+footer ul.list-unstyled a {
+    font-size: 1.5rem;
+    margin-right: 0.7rem;
+    transition: color 0.3s ease;
+}
+
+footer ul.list-unstyled a:hover {
+    color: var(--warnadasar) !important; /* Warna tema utama saat hover */
+}
+
+footer hr {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* footer .fa-instagram,
+footer .fa-whatsapp,
+footer .fa-shopify,
+footer .fa-shopping-bag,
+footer .fa-map-marker-alt,
+footer .fa-envelope,
+footer .fa-phone {
+    margin-right: 0.5rem;
+} */
+
+/* article */
+
+/* Styling untuk bagian artikel tepung */
+#article-tepung {
+    padding-top: 60px; /* Sesuaikan dengan tinggi navbar jika fixed */
+    padding-bottom: 60px;
+}
+
+.tepung-article {
+    background-color: #fff;
+}
+
+.article-header {
+    margin-bottom: 3rem;
+}
+
+.article-title {
+    font-size: 2.5rem;
+    color: var(--bs-primary); /* Menggunakan variabel warna Bootstrap */
+    margin-bottom: 0.5rem;
+}
+
+.article-subtitle {
+    font-size: 1.1rem;
+    color: var(--bs-secondary); /* Menggunakan variabel warna Bootstrap */
+}
+
+.article-section {
+    margin-bottom: 2.5rem;
+}
+
+.section-title {
+    font-size: 1.75rem;
+    color: var(--bs-secondary); /* Menggunakan variabel warna Bootstrap */
+    margin-bottom: 1.5rem;
+    border-bottom: 2px solid var(--bs-gray-300);
+    padding-bottom: 0.75rem;
+}
+
+.card-title {
+    margin-bottom: 1rem;
+}
+
+.call-to-action {
+    /* Warna latar belakang dan teks sudah diatur di HTML (bg-primary, text-white) */
+    padding: 2rem;
+    border-radius: 0.5rem;
+}
+
+.call-to-action h3 {
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.call-to-action p {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.call-to-action .btn-light {
+    font-weight: bold;
+}
+
+.article-image {
+    margin-top: 2rem;
+}
+
+/* Anda bisa menambahkan lebih banyak styling sesuai keinginan */
+/* Tidak ada perubahan CSS yang signifikan diperlukan untuk tabel Bootstrap */
+
+/* Anda bisa menambahkan sedikit styling tambahan jika diinginkan, misalnya: */
+.table th, .table td {
+    font-size: 0.9rem;
+}
+
+.table thead th {
+    background-color: #f8f9fa; /* Latar belakang header tabel */
+    border-bottom: 2px solid #dee2e6;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, 0.05); /* Efek garis zebra opsional */
+}
