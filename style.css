@@ -126,8 +126,12 @@ footer p {
 }
 
 footer ul.list-unstyled a {
+    text-decoration: none;
+    }
+    
+    footer ul.list-unstyled i {
     font-size: 1.5rem;
-    margin-right: 0.7rem;
+    margin-right: 0.5rem;
     transition: color 0.3s ease;
 }
 
